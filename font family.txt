@@ -1,0 +1,4 @@
+font-family: "Circular Std Book";
+font-family: "Circular Std Bold";
+font-family: "Circular Std Black";
+font-family: "Circular Std Medium";

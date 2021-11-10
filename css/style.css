@@ -1,0 +1,802 @@
+*{
+    margin: 0;padding: 0;
+}
+.clr{
+    clear: both;
+}
+.mr{
+    margin-right: 0 !important;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* common css end   */
+/* menu part start   */
+
+.menu{
+    margin-bottom: 220px;
+}
+.logo{
+    width: 10%;
+    float: left;
+    margin-top: 30px;
+}
+.item1{
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+}
+.item1 ul li{
+    display: inline-block;
+}
+.item2 ul li{
+    display: inline-block;
+}
+.item2{
+    width: 40%;
+    float: right;
+    text-align: right;
+    margin-top: 40px;
+}
+.item1 ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+    color: #333;
+    font-family: "Circular Std Medium";
+}
+.item2 ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+    color: #333;
+font-family: "Circular Std Medium";
+}
+.item2 ul li a i{
+    margin-right: 5px;
+    color: #2c6cd3;
+}
+.item2 ul #colore_dd{
+    color: #7a838e;
+}
+
+
+
+/* menu part end   */
+/* banner part start   */
+.banner{
+    background: url(../images/banner.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 115px;
+    margin-bottom: 165px;
+}
+.banner_text{
+    width: 320px;
+}
+
+.banner_text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    font-family: "Circular Std Medium";
+    
+}
+.banner_text h3{
+    font-size: 60px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Black";
+    
+}
+.banner_btn button{
+    color: #fff;
+    background: #26cfa2;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 20px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Circular Std Book";
+    margin-top: 43px;
+}
+
+
+/* banner part end   */
+
+
+/* form part start   */
+
+
+/* form part end   */
+.form{
+    width: 250px;
+    border: 1px solid rgb(63, 58, 58);
+    text-align: center;
+    padding: 25px 0px;
+    border-radius: 10px;
+    background: aqua;
+    margin: 0 auto;
+}
+input{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: aquamarine;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+}
+.form_btn{
+    display: inline;
+    padding: 15px 20px;
+    background: black;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Circular Std Book";
+}
+.form_part{
+    padding-top: 100px;
+    background: black;
+    padding-bottom: 100px;
+}
+
+/* service_part part start   */
+.service_part{
+    /* background-color: #f0f2f6; */
+    padding-bottom: 70px;
+    padding-top: 22px;
+    /* background: url(../images/banner2.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    position: relative;
+
+}
+.service_head{
+    text-align: center;
+}
+.service_head h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Bold";
+}
+.service_head p{
+    font-size: 17px;
+    font-weight: 700;
+    color: #818697;
+    font-family: "Circular Std Book";
+    margin-top: 28px;
+    margin-bottom: 95px;
+}
+
+
+.service_main{
+    position: absolute;
+    width: 650px;
+    padding: 20px 0px;
+    /* background: chartreuse; */
+    margin-left: 535px;
+    top: 0;
+}
+.service_main h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #2b7fff;
+    font-family: "Circular Std Bold";
+}
+.service_main h4{
+    font-size: 25px;
+    font-weight: 400;
+    color: #051033;
+    font-family: "Circular Std Book";
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.service_main p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+    padding-bottom: 55px;
+}
+
+
+.icon{
+    width: 70px;
+    height: 70px;
+    background: #daffd3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 27px;
+    color: #81d371;
+    float: left;
+}
+
+
+.service_item{
+    padding-bottom: 100px;
+}
+
+.service_item .text{
+    width: 555px;
+    float: left;
+    height: 70px;
+    
+}
+.service_item .text h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #3e4a5e;
+    font-family: "Circular Std Black";
+    margin-left: 30px;
+    margin-top: 13px;
+    
+}
+.service_item .text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+    margin-left: 30px;
+    margin-top: 10px;
+}
+/* service_part part end   */
+
+
+/* insurance part start   */
+.insurance{
+    background: #f0f2f6;
+}
+.insurance_head{
+    text-align: center;
+}
+.insurance_head h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Bold";
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.insurance_head p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+    padding-bottom: 80px;
+}
+
+.insurance_common{
+    width: 360px;
+    float: left;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 1px #333;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.mb{
+    margin-bottom: 100px !important;
+}
+
+.insurance_common .icon{
+    width: 120px;
+    height: 120px;
+    background: #b0f3ff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 27px;
+    color: #81d371;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.insurance_common .text{
+    text-align: center;
+}
+.insurance_common .text h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Bold";
+    margin-top: 156px;
+}
+.insurance_common .text p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #818697;
+    font-family: "Circular Std Book";
+    padding: 24px 50px 0px 50px;
+}
+
+/* insurance part end   */
+
+
+/* claims part start   */
+.claim{
+    margin-top: 135px;
+    margin-bottom: 195px;
+}
+
+
+.claim_heading{
+    text-align: center;
+    margin-bottom: 105px;
+}
+.claim_heading h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Bold";
+    padding-bottom: 20px;
+}
+.claim_heading p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #051033;
+    font-family: "Circular Std Book";
+    padding-bottom: 20px;
+}
+
+.claim_common{
+    width: 300px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    position: relative;
+    /* margin-left: 35px; */
+}
+.claim_common .icon{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #b0f3ff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.claim_common .icon h1{
+    color: #99e1ee;
+    line-height: 120px;
+    font-size: 65px;
+}
+
+.claim_common .text h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Bold";
+    margin-top: 155px;
+}
+.claim_common .text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+    margin-top: 25px;
+    line-height: 26px;
+    padding: 0px 5px;
+}
+
+
+.claim_m_icon{
+    width: 130px;
+    float: left;
+    text-align: center;
+}
+/* claims part end   */
+
+/* image about part start   */
+
+.image_banner4{
+    margin-bottom: 185px;
+    background: url(../images/banner4dd.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 320px;
+    padding-top: 90px;
+}
+
+.image_banner4_text h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: #051033;
+    font-family: "Circular Std Book";
+    margin-right: 535px;
+    padding-top: 45px;
+    padding-bottom: 43px;
+    line-height: 46px;
+}
+.image_banner4_text h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2b7fff;
+    font-family: "Circular Std Bold";
+    padding-bottom: 15px;
+}
+.image_banner4_text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+
+
+}
+
+.honest_head_btn{
+    width: 945px;
+    height: 175px;
+    background: #fff;
+    margin-left: 95px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px 1px rgba(51, 51, 51, 0.103);
+    position: relative;
+
+}
+.honest_head_btn .icon2{
+    float: left;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 37px;
+}
+.honest_head_btn .text{
+    float: left;
+    margin: 60px 0px;
+    margin-left: 75px;
+}
+.honest_head_btn .text h3{
+    font-size: 31px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Bold";
+}
+.honest_head_btn .text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+    padding-top: 20px;
+}
+.honest_head_btn .button{
+    float: right;
+}
+.honest_head_btn .button button{
+    margin-top: 60px;
+    margin-right: 40px;
+    padding: 20px 25px;
+    background: #26cfa2;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Circular Std Book";
+}
+
+/* image about part end   */
+
+
+/* honest part start   */
+.honest_banner{
+    margin-top: 125px;
+     padding-top: 35px;
+     background: url(../images/banner5cc.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.honest_head{
+    text-align: center;
+}
+.honest_head h3{
+    
+    font-size: 40px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Bold";
+}
+.honest_head p{
+    
+    font-size: 17px;
+    font-weight: 400;
+    color: #bbbdc6;
+    font-family: "Circular Std Book";
+    padding-top: 30px;
+}
+
+
+.h_common_tt{
+    width: 390px;
+    padding-top: 47px;
+    padding-bottom: 43px;
+    background: #fff;
+    box-shadow: 1px 1px 1px 1px #3333;
+    border-radius: 5px;
+    float: left;
+    margin-right: 360px;
+    margin-top: 140px;
+}
+.h_common_tt .h_head{
+    text-align: center;
+}
+.h_common_tt .h_head h3{
+    font-size: 15px;
+    font-weight: 700;
+    color: #26cfa2;
+    font-family: "Circular Std Bold";
+}
+
+
+.h_common_tt .h_icon{
+    margin-top: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.h_common_tt .h_body{
+    margin-bottom: 16px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+.h_common_tt .body_icon{
+    float: left;
+    margin-right: 15px;
+    width: 30px;
+    height: 35px;
+}
+.h_common_tt .body_text{
+    float: left;
+    width: 300px;
+    height: 35px;
+}
+.h_common_tt .body_text h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+    padding-top: 6px;
+}
+
+
+.h_common_tt .h_btn{
+    text-align: center;
+}
+.h_common_tt .h_btn button{
+    margin-top: 35px;
+    border-radius: 5px;
+    background: #26cfa2;
+    border: none;
+    padding: 20px 55px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Circular Std Book";
+}
+
+.honest_common{
+    position: relative;
+}
+.h_c_middel{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 48%;
+    top: -25px;
+    box-shadow: 5px 10px 0px 0 px #3e4a5e;
+
+}
+.h_c_middel .h_save{
+    text-align: center;
+    border-radius: 5px;
+}
+
+.corner{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #fdeebe;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    top: 0;
+    right: 0;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+.c_corner img{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.h_m_b{
+    margin-top: 50px;
+}
+
+.h_c_middel .h_save h3{
+    padding: 7px 6px;
+    background: #fff4b4;
+    padding: 7px 6px;
+    background: #fff4b4;
+    /* width: 75px; */
+
+    font-size: 13px;
+    font-weight: 400;
+    color: #c3891c;
+    font-family: "Circular Std Black";
+    margin-top: 10px;
+}
+
+.honest_bottom{
+    text-align: center;
+
+}
+.honest_bottom p{
+    margin-top: 62px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #9599a7;
+    font-family: "Circular Std Book";
+}
+
+.h_bottom_common{
+    width: 555px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 30px;
+    margin-top: 120px;
+}
+.b_mt{
+    margin-top: 0 !important;
+}
+.h_bottom_common h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Bold";
+    padding-top: 60px;
+}
+.h_bottom_common p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Bold";
+    line-height: 26px;
+    padding-top: 23px;
+}
+.bm_b{
+    margin-bottom: 120px !important;
+}
+/* honest part end   */
+/* prince_bottom part start   */
+
+.prince_bottom{
+    margin-bottom: 125px;
+}
+/* prince_bottom part end   */
+/* last1 part start   */
+.w_last{
+    background: #f0f2f6;
+}
+.w_l_common{
+    width: 265px;
+    padding-top: 90px;
+    float: left;
+    margin-right: 27px;
+}
+.w_l_common h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #051033;
+    font-family: "Circular Std Bold";
+    padding-bottom: 20px;
+}
+.w_l_common p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+    padding-bottom: 20px;
+    line-height: 26px;
+}
+
+
+.w_l_common ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+    transition: .4s;
+    margin-top: 10px;
+}
+.w_l_common ul li a:hover{
+    color: black;
+}
+.w_l_c_width{
+    width: 460px;
+}
+
+
+
+.copy_right{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    border-top: 1px solid #3e4a5e4b;
+}
+
+.copy_right p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818697;
+    font-family: "Circular Std Book";
+}
+/* last1 part end   */
+/* menu part start   */
+/* menu part end   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* back to top part start   */
+.back-to-top{
+    width: 50px;
+    height: 50px;
+    background: #051033;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    bottom: 20px;
+}
+.back-to-top i{
+    color: #f0f2f6;
+    line-height: 50px;
+    font-size: 23px;
+}
+
+/* back to top part end   */
+
+
+
